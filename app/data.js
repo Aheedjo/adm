@@ -123,6 +123,7 @@ export const experience = [
         startDate: "Dec 2023",
         endDate: "Present",
         location: "Remote",
+        description: "My initial role with the company was as a frontend developer. I was contracted to transform UI/UX designs into code using Next.js, ensuring the application looked functional and flawless.",
         techs: ["Software Development", "Front-End Web Development", "User Experience", "Responsiveness", "Next.js", "Git", "Figma", "TypeScript", "MongoDB", "Express", "Figma", "Problem Solving", "Tailwind CSS", "SCSS", "Angular"],
         linkToProject: "https://app.fyxn.nl/",
         extra: {
@@ -131,7 +132,8 @@ export const experience = [
             startDate: "Dec 2023",
             endDate: "Present",
             location: "Remote",
-            techs: ["Selenium Webdriver", "HTML", "TyprScript", "Selenium", "Testing", "Digital Ocean", "Neon Tech", "Express", "ejs"],
+            description: "After the contract was completed, I was retained part-time to continue transforming designs, enhancing app functionality, resolving bugs, and writing Selenium tests to ensure quality assurance.",
+            techs: ["Selenium Webdriver", "HTML", "TyprScript", "Selenium", "Testing", "Digital Ocean", "Neon Tech", "Express", "ejs", "GitHub Actions"],
         }
     },
     {
