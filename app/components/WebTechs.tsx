@@ -90,10 +90,6 @@ const WebTechs = () => {
             </div>
             <div>
                 <FaDigitalOcean className={ WebTechsStyles.webTech } />
-                <p>Digital Oceans</p>
-            </div>
-            <div>
-                <FaDigitalOcean className={ WebTechsStyles.webTech } />
                 <p>Digital Ocean</p>
             </div>
             <div>
