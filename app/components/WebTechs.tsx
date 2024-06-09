@@ -1,5 +1,5 @@
-import { FaHtml5, FaSass, FaPython, FaAngular, FaReact, FaFigma, FaNodeJs, FaGithub } from "react-icons/fa"
-import { SiTypescript, SiExpress, SiTailwindcss, SiFlask, SiJira, SiSvelte, SiMongodb, SiHeroku, SiVercel } from "react-icons/si"
+import { FaHtml5, FaSass, FaPython, FaAngular, FaReact, FaFigma, FaNodeJs, FaGithub, FaDigitalOcean } from "react-icons/fa"
+import { SiTypescript, SiExpress, SiTailwindcss, SiFlask, SiJira, SiSvelte, SiMongodb, SiHeroku, SiVercel, SiSelenium } from "react-icons/si"
 import { DiGit } from "react-icons/di"
 import WebTechsStyles from "../styles/WebTechs.module.scss"
 
@@ -69,6 +69,10 @@ const WebTechs = () => {
                 <p>GitHub</p>
             </div>
             <div>
+                <FaGithub className={ WebTechsStyles.webTech } />
+                <p>GitHub Actions</p>
+            </div>
+            <div>
                 <SiExpress className={ WebTechsStyles.webTech } />
                 <p>Express</p>
             </div>
@@ -83,6 +87,18 @@ const WebTechs = () => {
             <div>
                 <SiHeroku className={ WebTechsStyles.webTech } />
                 <p>Heroku</p>
+            </div>
+            <div>
+                <FaDigitalOcean className={ WebTechsStyles.webTech } />
+                <p>Digital Oceans</p>
+            </div>
+            <div>
+                <FaDigitalOcean className={ WebTechsStyles.webTech } />
+                <p>Digital Ocean</p>
+            </div>
+            <div>
+                <SiSelenium className={ WebTechsStyles.webTech } />
+                <p>Selenium</p>
             </div>
         </div>
     </section>
