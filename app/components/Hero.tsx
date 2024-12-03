@@ -19,8 +19,8 @@ const Hero = () => {
         <div className={ HeroStyles.cont }>
             <div className={ HeroStyles.text }>
                 <div className={ HeroStyles.heroTitle }>
-                    <span className={ HeroStyles.little }>Hello 👋🏽, I am Ahidjo,</span>
-                    <h1 className={ HeroStyles.mainText }>A Full-Stack Developer & UI/UX Designer, Turning Ideas into Digital Experiences.</h1>
+                    <span className={ HeroStyles.little }>Engr. ADM,</span>
+                    <h1 className={ HeroStyles.mainText }>Transforming ideas into impactful digital solutions through innovative and reliable technology development.</h1>
                 </div>
             </div>
             <div className={ HeroStyles.btnCont }>
@@ -39,6 +39,7 @@ const Hero = () => {
                 <span>Backend</span>
                 <span>Frontend</span>
                 <span>ui/ux</span>
+                <span>Testing</span>
             </div>
         </div>
         <div className={ HeroStyles.arrow }>

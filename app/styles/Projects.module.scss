@@ -1,18 +1,18 @@
 .projects {
     .projectsGrid {
         @apply mt-5 md:mt-7;
-        @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-5;
+        @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-5;
 
         .project {
-            @apply shadow-sm rounded;
+            @apply shadow-sm rounded h-full grid grid-rows-[auto_1fr];
             @apply bg-[url("../assets/repeating-triangles.svg")] bg-cover bg-no-repeat bg-center; 
 
             .image {
-                @apply rounded-t h-40 w-full object-cover;
+                @apply rounded-t h-44 md:h-48 lg:h-52 w-full object-cover;
             }
             
             .infoCont {
-                @apply p-5;
+                @apply p-5 h-full;
 
                 .info {
                     > div {
@@ -26,31 +26,33 @@
                     .title {
                         @apply mb-1 text-lg;
                     }
-        
+
                     .text {
                         @apply text-sm;
                     }
                 }
-    
 
-                .techs {
-                    @apply flex items-center gap-2 mt-4 flex-wrap;
+                .aha {
+                  .techs {
+                      @apply flex items-center gap-2 mt-4 flex-wrap;
 
-                    .tech {
-                        @apply px-2 py-1 bg-primary bg-opacity-5 text-paragraph text-xs;
-                    }
+                      .tech {
+                          @apply px-2 py-1 bg-primary bg-opacity-5 text-paragraph text-xs;
+                      }
+                  }
+
+                  .btnCont {
+                      @apply grid grid-cols-2 w-full gap-3 mt-6;
+
+                      a {
+                          @apply text-xs border-solid border-primary border-[1px] p-3 py-1 rounded-sm w-full text-center transition-all;
+                          &:hover {
+                              @apply bg-primary text-secondary;
+                          }
+                      }
+                  }
                 }
-    
-                .btnCont {
-                    @apply flex gap-3 mt-6;
-    
-                    a {
-                        @apply text-xs border-solid border-primary border-[1px] p-3 py-1 rounded-sm w-28 text-center transition-all;
-                        &:hover {
-                            @apply bg-primary text-secondary;
-                        }
-                    }
-                }
+
             }
         }
     }

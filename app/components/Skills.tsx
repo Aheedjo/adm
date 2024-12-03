@@ -2,7 +2,6 @@ import { skills } from "../data.js"
 import Image from 'next/image';
 import skillsStyles from "../styles/Skills.module.scss"
 
-
 const Services = () => {
     return (
         <section className={`${skillsStyles.skills} container`}>

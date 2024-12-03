@@ -5,6 +5,10 @@ import project1Image from "./assets/Screenshot 2023-10-09 105717.png"
 import project2Image from "./assets/bd.png"
 import project3Image from "./assets/form.png"
 import project4Image from "./assets/url.jpg"
+import project5Image from "./assets/gyronics.png"
+import project6Image from "./assets/edushare.png"
+import project7Image from "./assets/fyxn.png"
+import project8Image from "./assets/platr.png"
 import alxLogo from "./assets/alx-logo.svg"
 import abuLogo from "./assets/ABU-logo.png"
 import nnpcLogo from "./assets/NNPC-logo.svg"
@@ -19,7 +23,7 @@ export const skills = [
     },
     {
         icon: design,
-        title: "UI/UX Design",
+        title: "Product Design",
         info: "Creating visually stunning designs and intuitive user flows for delightful user interactions."
     },
     {
@@ -35,6 +39,73 @@ export const skills = [
 ];
 
 export const projects = [
+      {
+        tag: "Full-stack",
+        title: "FYXN – Sustainable Installer Comparison Platform",
+        text: "I contributed to developing a user-friendly platform that simplifies comparing solar panels, heat pumps, home batteries, insulation options, and more in the Netherlands. It offers transparent quotes, seamless scheduling, and post-installation quality checks, empowering users to make confident, informed decisions about sustainable energy solutions.",
+        image: project7Image,
+        techs: [
+          "Next.js",
+          "TypeScript",
+          "GraphQL",
+          "Jest",
+          "Express.js",
+          "Selenium WebDriver",
+          "PostgreSQL",
+          "Next.js",
+          "React",
+          "TypeScript",
+          "GraphQL",
+          "Tailwind CSS",
+          "Zustand",
+        ],
+        codeLink: "",
+        liveLink: "https://fyxn-nl/",
+        features: [
+            "Personalized solar installer comparisons based on user input.",
+            "Integrated quote request system with real-time price estimation.",
+            "Installer management dashboard for tracking customer requests.",
+            "Comprehensive blogs and FAQs to guide users on sustainability topics.",
+            "Independent quality control checks for installations."
+        ]
+    },
+    {
+      tag: "Full-stack",
+      title: "Platr Business Dashboard, Partner Dashboard & Webshop",
+      text: "Contributed to developing Platr, an all-in-one platform for entrepreneurs. The Business Dashboard includes tools for order management, inventory tracking, financial insights, and storefront customization. The Partner Dashboard allows influencers to mentor businesses and earn referrals. Played a key role in creating webshop functionality and platform design.",
+      image: project8Image,
+      techs: [
+        "Angular",
+        "Express.js",
+        "Firebase",
+        "TypeScript",
+        "TailwindCSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+      ],
+      codeLink: "", 
+      liveLink: "https://platr.ng"
+    },
+    {
+        tag: "Front-end",
+        title: "Gyronics Wearable Technology Platform",
+        text: "Developed the Gyronics platform, showcasing gesture-based control, AI-powered recognition, customizable gestures, and seamless integration with hardware, empowering users with disabilities and enhancing experiences for creative professionals, gamers, and developers.",
+        image: project5Image,
+        techs: ["nextJs", "TypeScript", "JavaScript", "Sass", "Tailwind", "EmailJS", "Clodinary", "React Hook Form"],
+        codeLink: "",
+        liveLink: "https://www.gyronics.com"
+    },
+    {
+        tag: "Full-stack",
+        title: "EduShare Platform",
+        text: "Developed a course material management portal for students and lecturers, featuring secure uploads, easy access, collaborative tools, and academic resources.",
+        image: project6Image,
+        techs: ["NextJs", "firebase", "TS"],
+        codeLink: "https://github.com/Aheedjo/EduShare",
+        liveLink: "https://edu-share-ashy.vercel.app"
+    },
     {
         tag: "Front-end",
         title: "where in the world?",
@@ -43,15 +114,6 @@ export const projects = [
         techs: ["nextJs", "TypeScript", "JavaScript", "Sass", "Tailwind"],
         codeLink: "https://github.com/Aheedjo/REST-Countries-API-with-color-theme-switcher",
         liveLink: "https://rest-countries-api-with-color-theme-switcher-aheedjo.vercel.app/"
-    },
-    {
-        tag: "Front-end",
-        title: "Bearded Dare",
-        text: "Showcasing e-commerce project-products, sales, about, contact, checkout. Demonstrates web development skills. (In-developement)",
-        image: project2Image,
-        techs: ["nextJs", "TypeScript", "JavaScript", "Sass", "Tailwind"],
-        codeLink: "https://github.com/Aheedjo/bearded-dare",
-        liveLink: "https://bearded-dare.vercel.app/"
     },
     {
         tag: "Front-end",
@@ -71,17 +133,8 @@ export const projects = [
         codeLink: "https://github.com/Aheedjo/url-shortening-api-master",
         liveLink: "https://fascinating-cheesecake-452b26.netlify.app/"
     },
-    // {
-    //     tag: "Front-end",
-    //     title: "Portfolio website",
-    //     text: "Explore my portfolio for a glimpse into web innovation. Elevate your digital presence with sleek designs and seamless experiences. 🌐",
-    //     image: project5Image,
-    //     techs: ["NextJs", "Tailwind", "EmailJs", "ReactJs", "Sass"],
-    //     codeLink: "https://github.com/Aheedjo/adm",
-    //     liveLink: "https://adms-portfolio.vercel.app/"
-    // },
     {
-        tag: "Back-end  ||  API",
+        tag: "Back-end || API",
         title: "Task Management API",
         text: "A backend API enables user authentication and CRUD operations for tasks, projects, and labels, backed by a MongoDB database",
         image: '',
@@ -112,6 +165,14 @@ export const projects = [
         techs: ["Figma"],
         designLink: "https://www.figma.com/file/kew5fgxKv6PJWEqBHHo7Mf/Bearded-Dare?type=design&node-id=355-2031&mode=design&t=EDjcROLzxb3uoUeh-0",
     },
+    {
+      tag: "UI/UX",
+      title: "NNPC Reusable Template Library",
+      text: "Designed a library of reusable UI/UX templates for NNPC, including login, dashboards, tables, forms, notifications, and more. Simplified future software development workflows.",
+      image: '',
+      techs: ["Figma"],
+      designLink: "https://www.figma.com/design/tGKar6dfa6cvlGjQuI3mez/NNPC-Design-Project?node-id=0-1&node-type=canvas&t=OtgyDslrTTV7Nrut-0"
+  }
 ];
 
 export const experience = [
@@ -125,16 +186,25 @@ export const experience = [
         location: "Remote",
         Description: "My initial role with the company was as a frontend developer. I was contracted to transform UI/UX designs into code using Next.js, ensuring the application looked functional and flawless.",
         techs: ["Software Development", "Front-End Web Development", "User Experience", "Responsiveness", "Next.js", "Git", "Figma", "TypeScript", "MongoDB", "Express", "Figma", "Problem Solving", "Tailwind CSS", "SCSS", "Angular"],
-        linkToProject: "https://app.fyxn.nl/",
+        linkToProject: "https://fyxn.nl/",
         extra: {
             title: "Full-Stack Engineer",
             employmentType: "Part-time",
             startDate: "Dec 2023",
-            endDate: "Present",
+            endDate: "Nov 2023",
             location: "Remote",
             Description: "After the contract was completed, I was retained part-time to continue transforming designs, enhancing app functionality, resolving bugs, and writing Selenium tests to ensure quality assurance.",
             techs: ["Selenium Webdriver", "HTML", "TyprScript", "Selenium", "Testing", "Digital Ocean", "Neon Tech", "Express", "ejs", "GitHub Actions"],
-        }
+        },
+        extra2: {
+            title: "Full-Stack Engineer",
+            employmentType: "Full-time",
+            startDate: "Dec 2024",
+            endDate: "Present",
+            location: "Remote",
+            Description: "Following my exceptional performance as a part-time developer, I was offered a full-time role immediately after completing my studies. In this capacity, I continued contributing to both the frontend and backend of the application, enhancing functionality, conducting rigorous testing, and ensuring seamless integration. Excited to tackle new challenges and further expand the project’s capabilities in the future.",
+            techs: ["Hasura", "PostgreSQL", "NextJS", "NextJS API Developement", "zustand"],
+        },
     },
     {
         title: "Full-Stack Developer",

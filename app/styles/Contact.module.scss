@@ -1,5 +1,5 @@
 .contact {
-    @apply lg:grid gap-20 lg:mb-20;
+    @apply lg:grid gap-20 lg:mb-20 lg:min-h-[450px];
     @media screen and (min-width: 768px) {
         grid-template-columns: 60% 40%;
     }

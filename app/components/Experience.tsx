@@ -53,6 +53,11 @@ const Experience = () => {
                                                 <div className={ `${ExperienceStyles.logoXline} ${ExperienceStyles.extraCont}` }>
                                                     <span className={ `${ExperienceStyles.line} ${ExperienceStyles.extraLine}` }></span>
                                                     <span className={ ExperienceStyles.circle }></span>
+                                                    {
+                                                        singleExperience.extra2 ? (
+                                                            <span className={ ExperienceStyles.line }></span>
+                                                        ) : null
+                                                    }
                                                 </div>
                                                 <div className={ `${ExperienceStyles.detailsWrapper} pt-10` }>
                                                     <div className={ ExperienceStyles.details }>
@@ -67,6 +72,38 @@ const Experience = () => {
                                                     <div className={ ExperienceStyles.techs }>
                                                         {
                                                             singleExperience.extra.techs.map((tech, i) => {
+                                                                return (
+                                                                    <div key={i}>
+                                                                        <p className={ ExperienceStyles.tech }>{ tech }</p>
+                                                                    </div>
+                                                                )
+                                                            })
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        ) : null
+                                    }
+                                    {
+                                        singleExperience.extra2 ? (
+                                            <div className={ ExperienceStyles.infoCont }>
+                                                <div className={ `${ExperienceStyles.logoXline} ${ExperienceStyles.extraCont}` }>
+                                                    <span className={ `${ExperienceStyles.line} ${ExperienceStyles.extraLine}` }></span>
+                                                    <span className={ ExperienceStyles.circle }></span>
+                                                </div>
+                                                <div className={ `${ExperienceStyles.detailsWrapper} pt-10` }>
+                                                    <div className={ ExperienceStyles.details }>
+                                                        <div>
+                                                            <h4 className={ ExperienceStyles.title }>{ singleExperience.extra2.title }</h4>
+                                                            <p>{ singleExperience.extra2.employmentType }</p>
+                                                            <p className={ ExperienceStyles.grey }>{ singleExperience.extra2.startDate } - { singleExperience.extra2.endDate }</p>
+                                                            <p className={ ExperienceStyles.grey }>{ singleExperience.extra2.location }</p>
+                                                        </div>
+                                                    </div>
+                                                    <p className={ ExperienceStyles.description }>{ singleExperience.extra2.Description }</p>
+                                                    <div className={ ExperienceStyles.techs }>
+                                                        {
+                                                            singleExperience.extra2.techs.map((tech, i) => {
                                                                 return (
                                                                     <div key={i}>
                                                                         <p className={ ExperienceStyles.tech }>{ tech }</p>
